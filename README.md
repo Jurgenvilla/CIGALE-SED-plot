@@ -1,12 +1,10 @@
-# MOONS
+# SED cool plots
 
-Different files used to create mock spectra catalogs with CIGALE on the COSMOS field. the notebook File_to_CIGALE-format.ipynb contains the procedure to get a sample of objects from the COSMOS2015 catalog and correct the photometric data. Also the FMOS-COSMOS spectroscopic data. In general it can be use to convert the COSMOS2015 catalog and obtain larger samples without matching to a spectroscopic catalog. 
-
-Notes on the gas-phase metallicity, ionization parameter and reshfit subdivision of the sample to be fitted with CIGALE are also explained. This is important when modeling continuum and emission lines. Modeling continuum-only is easier as the nebular module does not need to be taken into account. The sub-division in metallicity bins after SED fitting the sample and obtaining SFR and stellar mass is straightforward.
+This is a code to plot SED data from CIGALE in a very crude fashion. I used it to create nice plots in dark mode inspired by a presentation of Fédéric Galliano to show different components of SEDs for my Ph.D. defense. The data I used is one of my galaxies from the FMOS-COSMOS survey which I fitted with CIGALE for my Ph.D. thesis project. Feel free to use it and adapt it to your needs and probably improve it.
 
 # Acknowledgements
 
-These notebooks are created for the working groups of the MOONS consortium. This is part of my Ph.D. thesis (http://www.theses.fr/s210961) at LAM (https://www.lam.fr/?lang=en) funded by AMIDEX (https://www.univ-amu.fr/en/public/amidex-team).
+This was part of my Ph.D. thesis (http://www.theses.fr/s210961) at LAM (https://www.lam.fr/?lang=en) funded by AMIDEX (https://www.univ-amu.fr/en/public/amidex-team).
 
 # License
 
